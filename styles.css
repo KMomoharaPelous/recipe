@@ -1112,3 +1112,30 @@ footer img:hover {
     }
 
 }
+
+/* Print */
+@media print {
+
+    body {
+        margin: 0.5in;
+        font-family: serif;
+    }
+
+    nav {
+        display: none;
+    }
+
+    img {
+        filter: grayscale(100%);
+    }
+
+    html, body {
+        height:100%;
+        width: 100%; 
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+
+}
